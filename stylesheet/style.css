@@ -16,7 +16,7 @@
 	unicode-range: U+AC00-D7AF;
 }
 
-html, body, nav {
+html, nav, main, aside {
 	height: 100%;
 }
 
@@ -25,15 +25,19 @@ body {
 	'apple SD 산돌고딕 Neo', 'Helvetica', 'arial', 'courier';
 	margin: 0px;
 	color: #eee8d5;
-	background-color: #073642;
+	background-color: #002b36;
 }
 
-nav {
+nav, aside {
 	width: 15%;
 	position: fixed;
 	top: 0;
-	background-color: #002b36;
+	background-color: #073642;
 	padding: 5% 0;
+}
+
+aside {
+	right: 0;
 }
 
 nav a {
@@ -60,9 +64,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
-article {
-	margin-left: 15%;
-	padding: 2em;
+main {
+	margin: 0 15%;
+	padding: 30px;
 }
 
 article a:visited {
@@ -101,6 +105,6 @@ figcaption {
 
 .current {
 	color: #eee8d5;
-	background-color: #073642;
+	background-color: #002b36;
 }
 
