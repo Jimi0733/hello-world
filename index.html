@@ -6,12 +6,18 @@
 <html lang="en-US">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./stylesheet/style.css">
-		<title>Jamie's Shelter</title>
 		<script src="scripts/script.js"></script>
+		<title>Jamie's Shelter</title>
 	</head>
 	
 	<body>
+		<header id="body_header">
+			<input type="checkbox" id="menu" onClick="menuToggle()">
+			<label for="menu" id="hamburger">&#9776</label>
+			<label for="menu" id="cross">&#10005</label>
+		</header>
 		<nav>
 			<a class="current" href="index.html">Home</a>
 			<br>
@@ -24,13 +30,21 @@
 		</nav>
 		<main>
 			<article>
-				<h1>Welcome</h1>
+				<header class="subject">
+					<h1>Welcome to my homepage!</h1>
+				</header>
+				<p>My name is Jongmin Kim and this is my personal homepage. 
+				<br>If you want more detail, check <a href="about.html">About</a>.
+				</p>
 				<p>I'm studying HTML/CSS/JS these days.<br>So..</p>
 				<figure>
-					<img src="images/under-construction.png" alt="under-construction" width=80%><figcaption>My webpage is still under construction..</figcaption>
+					<img src="images/under-construction.png" 
+					alt="under-construction" width=80%>
+					<figcaption>My webpage is still under construction..</figcaption>
 				</figure>
 			</article>
 		</main>
 		<aside></aside>
+		<footer>Copyright 2020-2021 Jongmin Kim. All rights reserved.</footer>
 	</body>
 </html>

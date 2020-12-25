@@ -6,11 +6,16 @@
 <html lang="en-US">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./stylesheet/style.css">
 		<title>Jamie's Shelter</title>
 	</head>
 	
 	<body>
+		<header id="body_header">
+			<input type="checkbox" id="hamburger-menu">
+			<label for="hamburger-menu">&#x2630</label>
+		</header>
 		<nav>
 			<a href="index.html">Home</a>
 			<br>
@@ -25,6 +30,8 @@
 			<article>
 				<h1>Me</h1>
 				<p>
+				My name is Jongmin Kim 
+				and I'm just using the nickname 'NuttyJamie'.<br>
 				I was born in 1991 and currently live in Daegu, South Korea.<br>
 				If you want to contact me, please send email:
 				<a href="mailto:jongmie91@gmail.com">jongmie91@gmail.com</a>
@@ -88,79 +95,91 @@
 						<td style="background-color:#859900"></td>
 					</tr>
 				</table>
-				<table class="vertical">
-					<tr>
-						<th>Name</th>
-						<th>HEX</th>
-						<th>Colour</th>
-					</tr>
-					<tr>
-						<td>base03</td><td>#002b36</td>
-						<td style="background-color:#002b36"></td>
-					</tr>
-					<tr>
-						<td>base02</td><td>#073642</td>
-						<td style="background-color:#073642"></td>
-					</tr>
-					<tr>
-						<td>base01</td><td>#586e75</td>
-						<td style="background-color:#586e75"></td>
-					</tr>
-					<tr>
-						<td>base00</td><td>#657b83</td>
-						<td style="background-color:#657b83"></td>
-					</tr>
-					<tr>
-						<td>base0</td><td>#839496</td>
-						<td style="background-color:#839496"></td>
-					</tr>
-					<tr>
-						<td>base1</td><td>#93a1a1</td>
-						<td style="background-color:#93a1a1"></td>
-					</tr>
-					<tr>
-						<td>base2</td><td>#eee8d5</td>
-						<td style="background-color:#eee8d5"></td>
-					</tr>
-					<tr>
-						<td>base3</td><td>#fdf6e3</td>
-						<td style="background-color:#fdf6e3"></td>
-					</tr>
-					<tr>
-						<td>yellow</td><td>#b58900</td>
-						<td style="background-color:#b58900"></td>
-					</tr>
-					<tr>
-						<td>orange</td><td>#cb4b16</td>
-						<td style="background-color:#cb4b16"></td>
-					</tr>
-					<tr>
-						<td>red</td><td>#dc322f</td>
-						<td style="background-color:#dc322f"></td>
-					</tr>
-					<tr>
-						<td>magenta</td><td>#d33682</td>
-						<td style="background-color:#d33682"></td>
-					</tr>
-					<tr>
-						<td>violet</td><td>#6c71c4</td>
-						<td style="background-color:#6c71c4"></td>
-					</tr>
-					<tr>
-						<td>blue</td><td>#268bd2</td>
-						<td style="background-color:#268bd2"></td>
-					</tr>
-					<tr>
-						<td>cyan</td><td>#2aa198</td>
-						<td style="background-color:#2aa198"></td>
-					</tr>
-					<tr>
-						<td>green</td><td>#859900</td>
-						<td style="background-color:#859900"></td>
-					</tr>
-				</table>
+				<div class="vertical-table-container">
+					<table class="vertical">
+						<tr>
+							<th>Name</th>
+							<th>HEX</th>
+							<th>Colour</th>
+						</tr>
+						<tr>
+							<td>base03</td><td>#002b36</td>
+							<td style="background-color:#002b36"></td>
+						</tr>
+						<tr>
+							<td>base02</td><td>#073642</td>
+							<td style="background-color:#073642"></td>
+						</tr>
+						<tr>
+							<td>base01</td><td>#586e75</td>
+							<td style="background-color:#586e75"></td>
+						</tr>
+						<tr>
+							<td>base00</td><td>#657b83</td>
+							<td style="background-color:#657b83"></td>
+						</tr>
+						<tr>
+							<td>base0</td><td>#839496</td>
+							<td style="background-color:#839496"></td>
+						</tr>
+						<tr>
+							<td>base1</td><td>#93a1a1</td>
+							<td style="background-color:#93a1a1"></td>
+						</tr>
+						<tr>
+							<td>base2</td><td>#eee8d5</td>
+							<td style="background-color:#eee8d5"></td>
+						</tr>
+						<tr>
+							<td>base3</td><td>#fdf6e3</td>
+							<td style="background-color:#fdf6e3"></td>
+						</tr>
+					</table>
+					<table class="vertical">
+						<tr>
+							<th>Name</th>
+							<th>HEX</th>
+							<th>Colour</th>
+						</tr>
+						<tr>
+							<td>yellow</td><td>#b58900</td>
+							<td style="background-color:#b58900"></td>
+						</tr>
+						<tr>
+							<td>orange</td><td>#cb4b16</td>
+							<td style="background-color:#cb4b16"></td>
+						</tr>
+						<tr>
+							<td>red</td><td>#dc322f</td>
+							<td style="background-color:#dc322f"></td>
+						</tr>
+						<tr>
+							<td>magenta</td><td>#d33682</td>
+							<td style="background-color:#d33682"></td>
+						</tr>
+						<tr>
+							<td>violet</td><td>#6c71c4</td>
+							<td style="background-color:#6c71c4"></td>
+						</tr>
+						<tr>
+							<td>blue</td><td>#268bd2</td>
+							<td style="background-color:#268bd2"></td>
+						</tr>
+						<tr>
+							<td>cyan</td><td>#2aa198</td>
+							<td style="background-color:#2aa198"></td>
+						</tr>
+						<tr>
+							<td>green</td><td>#859900</td>
+							<td style="background-color:#859900"></td>
+						</tr>
+					</table>
+				</div>
+				<p>Unless otherwise indicated, all contents on this site 
+				is written by myself.</p>
 			</article>
 		</main>
 		<aside></aside>
+		<footer>Copyright 2020-2021 Jongmin Kim. All rights reserved.</footer>
 	</body>
 </html>
