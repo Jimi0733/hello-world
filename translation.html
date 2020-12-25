@@ -8,13 +8,15 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./stylesheet/style.css">
+		<script src="scripts/script.js"></script>
 		<title>Jamie's Shelter</title>
 	</head>
 	
 	<body>
 		<header id="body_header">
-			<input type="checkbox" id="hamburger-menu">
-			<label for="hamburger-menu">&#x2630</label>
+			<input type="checkbox" id="menu" onClick="menuToggle()">
+			<label for="menu" id="hamburger">&#9776</label>
+			<label for="menu" id="cross">&#10005</label>
 		</header>
 		<nav>
 			<a href="index.html">Home</a>
