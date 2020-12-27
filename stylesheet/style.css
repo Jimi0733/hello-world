@@ -107,6 +107,10 @@ table.vertical {
 	display: none;
 }
 
+table.vertical > th, td {
+	width: 65px;
+}
+
 .vertical-table-container {
 	display: flex;
 }
@@ -190,7 +194,18 @@ footer {
 	
 	table.vertical {
 		margin: auto;
-		display: flex;
+		display: block;
 		border: none;
 	}
 }
+
+@media screen and (max-width: 450px) {
+	.vertical-table-container {
+		flex-direction: column;
+	}
+	
+	main {
+		padding: 1vh;
+	}
+}
+		
